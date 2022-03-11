@@ -1,0 +1,55 @@
+.nav_kiri, .nav_kanan{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    align-items: center;
+    color: white;
+}
+li{
+    height: 80px;
+    padding-top: 20px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    margin: 0px;
+    background-color: black;
+    z-index: 2;
+}
+#warna{
+color: white;
+font-size: 13px;
+font-weight: 900;
+}   
+.dropdown-menu li{
+    height: 60px;
+    align-items: center;
+    border-bottom: 2px;
+    border-bottom-color: #808080;
+
+}
+.dropdown-item{
+    border-bottom: 2px;
+    border-bottom-color: #808080;
+}
+.form-control{
+    width: 200px;
+}
+.input-group{
+    width: 300px;
+}
+.button{
+    color: white;
+    background-color: rgb(209, 54, 57);
+}
+.main_isi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    }
+section{
+    z-index: 0;
+}
